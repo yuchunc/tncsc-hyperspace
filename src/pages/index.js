@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGavel, faDiceD20, faPaw, faHardHat, faExclamationTriangle } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
@@ -110,7 +112,9 @@ const IndexPage = () => (
           <h2>What we do</h2>
           <div className="features">
             <section>
-              <span className="icon major fa-gavel" />
+              <span className="icon major">
+                <FontAwesomeIcon icon={faGavel} color="#b74e91"/>
+              </span>
               <h3>Law and Bylaw Development and Review</h3>
               <p>
                 TNCSC can help Nations and Bands draft appropriate laws and bylaws that will address community
@@ -119,7 +123,9 @@ const IndexPage = () => (
               </p>
             </section>
             <section>
-              <span className="icon major fa-hard-hat" />
+              <span className="icon major">
+                <FontAwesomeIcon icon={faHardHat} color="#b74e91"/>
+              </span>
               <h3>Community Safety Program Development</h3>
               <p>
                 We have experience working with Indigenous communities in creating robust community safety
@@ -129,7 +135,9 @@ const IndexPage = () => (
               </p>
             </section>
             <section>
-              <span className="icon major fa-paw" />
+              <span className="icon major">
+                <FontAwesomeIcon icon={faPaw} color="#b74e91"/>
+              </span>
               <h3>Animal Control Program Development</h3>
               <p>
                 At TNCSC, we recognize that there are issues related to animal control issues on reserve. We can
@@ -138,7 +146,9 @@ const IndexPage = () => (
               </p>
             </section>
             <section>
-              <span className="icon major fa-exclamation-triangle" />
+              <span className="icon major">
+                <FontAwesomeIcon icon={faExclamationTriangle} color="#b74e91"/>
+              </span>
               <h3>Community Safety and Regulator Enforcement Training</h3>
               <p>
                 TNCSC has the experience and knowledge on the types of training a community may need when they
@@ -148,7 +158,7 @@ const IndexPage = () => (
             </section>
             <section>
               <span className="icon major">
-                <i className="fas fa-dice-d20"></i>
+                <FontAwesomeIcon icon={faDiceD20} color="#b74e91"/>
               </span>
               <h3>Community Stabilization</h3>
               <p>
