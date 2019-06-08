@@ -16,13 +16,13 @@ const IndexPage = () => (
     <div id="wrapper">
       <section id="intro" className="wrapper style1 fullscreen fade-up">
         <div className="inner">
-          <h1>Hyperspace</h1>
+          <h1>True North Community Safety Consulting</h1>
           <p>
-            Just another fine responsive site template designed by{' '}
-            <a href="http://html5up.net">HTML5 UP</a>
-            <br />
-            and released for free under the{' '}
-            <a href="http://html5up.net/license">Creative Commons</a>.
+            We specialize in Indigenous community safety and regulatory enforcement program development.
+            We have the experience and knowledge to help your Nation or Band, set up a robust enforcement
+            scheme that will be able to address your current issues, and flexible enough to grow with your
+            needs. At True North Community Safety, we want to work with you to build and sustain a healthier,
+            safer community.
           </p>
           <ul className="actions">
             <li>
@@ -36,7 +36,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="one" className="wrapper style2 spotlights">
+      <section id="team" className="wrapper style2 spotlights">
         <section>
           <a href="/#" className="image" alt="image">
             <img src={pic1} alt="" data-position="center center" />
@@ -105,54 +105,53 @@ const IndexPage = () => (
         </section>
       </section>
 
-      <section id="two" className="wrapper style3 fade-up">
+      <section id="about" className="wrapper style3 fade-up">
         <div className="inner">
           <h2>What we do</h2>
-          <p>
-            Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-            turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-            lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-            imperdiet est velit quis lorem.
-          </p>
           <div className="features">
             <section>
               <span className="icon major fa-code" />
-              <h3>Lorem ipsum amet</h3>
+              <h3>Law and Bylaw Development and Review</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                TNCSC can help Nations and Bands draft appropriate laws and bylaws that will address community
+                safety, and or other regulatory enforcement issues such as trespass, nuisance, illegal dumping,
+                etc.
               </p>
             </section>
             <section>
               <span className="icon major fa-lock" />
-              <h3>Aliquam sed nullam</h3>
+              <h3>Community Safety Program Development</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                We have experience working with Indigenous communities in creating robust community safety
+                programs that deal with the social issues experience on reserve land. TNCSC can conduct a
+                community needs assessment and provide recommendations to the leadership on how to best address
+                the issues.
               </p>
             </section>
             <section>
               <span className="icon major fa-cog" />
-              <h3>Sed erat ullam corper</h3>
+              <h3>Animal Control Program Development</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                At TNCSC, we recognize that there are issues related to animal control issues on reserve. We can
+                help develop Animal Control laws, bylaws, and regulations, to help deal with issues related to
+                aggressive dogs, illegal breeding, or over breeding, and animal cruelty.
               </p>
             </section>
             <section>
               <span className="icon major fa-desktop" />
-              <h3>Veroeros quis lorem</h3>
+              <h3>Community Safety and Regulator Enforcement Training</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                TNCSC has the experience and knowledge on the types of training a community may need when they
+                begin their first steps towards making their land safer. Please contact us to see what type of
+                training may be the most suitable for your community.
               </p>
             </section>
             <section>
               <span className="icon major fa-chain" />
-              <h3>Urna quis bibendum</h3>
+              <h3>Community Stabilization</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                If you believe your community is in need of assistance due to issues related to safety,
+                please contact us to see what types of assistance we may be able to provide.
               </p>
             </section>
             <section>

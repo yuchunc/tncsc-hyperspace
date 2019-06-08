@@ -1,15 +1,15 @@
 module.exports = {
-  pathPrefix: `/gatsby-starter-hyperspace/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   siteMetadata: {
-    title: 'Gatsby Starter Hyperspace',
+    title: 'True North Community Safety Consulting',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Hyperspace',
-        short_name: 'starter',
+        name: 'True North Community Safety Consulting',
+        short_name: 'tncsc',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
@@ -18,6 +18,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline',
+    //'gatsby-plugin-offline',
   ],
 };
